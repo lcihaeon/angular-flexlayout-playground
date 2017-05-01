@@ -8,7 +8,7 @@ import {FlexLayoutModule} from "@angular/flex-layout";
 import {NoopAnimationsModule} from "@angular/platform-browser/animations";
 import {
   MdCheckboxModule, MdButtonModule, MdInputModule, MdAutocompleteModule, MdSliderModule,
-  MdButtonToggleModule, MdRadioModule, MdIconModule, MdSlideToggleModule
+  MdButtonToggleModule, MdRadioModule, MdIconModule, MdSlideToggleModule, MdCardModule
 } from "@angular/material";
 import { ContactsListComponent } from './contacts-list/contacts-list.component';
 
@@ -32,6 +32,7 @@ import { ContactsListComponent } from './contacts-list/contacts-list.component';
     MdButtonToggleModule,
     MdRadioModule,
     MdIconModule,
+    MdCardModule,
     FlexLayoutModule
   ],
   providers: [],
