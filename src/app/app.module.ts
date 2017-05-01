@@ -10,12 +10,10 @@ import {
   MdCheckboxModule, MdButtonModule, MdInputModule, MdAutocompleteModule, MdSliderModule,
   MdButtonToggleModule, MdRadioModule, MdIconModule, MdSlideToggleModule, MdCardModule
 } from "@angular/material";
-import { ContactsListComponent } from './contacts-list/contacts-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ContactsListComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
